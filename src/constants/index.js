@@ -14,16 +14,20 @@ import {
   express,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  c,
+  cplus,
+  mysql,
+  github,
+  gitlab,
+  postman,
+  datastructure,
+  metafic,
+  luertech,
+  microsoft,
+  veggiefresh,
+  filesmob,
+  rakshak
 } from "../assets";
 
 export const navLinks = [
@@ -67,32 +71,25 @@ const services = [
     icon: [
       { name: "NodeJS", import: nodejs },
       { name: "ExpressJS", import: express },
-      { name: "JavaScript", import: javascript },
-      { name: "ReactJS", import: reactjs },
-      { name: "Redux", import: redux },
-      { name: "Tailwind CSS", import: tailwind },
+      { name: "C", import: c },
+      { name: "C++", import: cplus },
     ],
   },
   {
     title: "Databases",
     icon: [
-      { name: "HTML", import: html },
-      { name: "CSS", import: css },
-      { name: "JavaScript", import: javascript },
-      { name: "ReactJS", import: reactjs },
-      { name: "Redux", import: redux },
-      { name: "Tailwind CSS", import: tailwind },
+      { name: "MySQL", import: mysql },
+      { name: "MongoDB", import: mongodb },
     ],
   },
   {
     title: "Others",
     icon: [
-      { name: "HTML", import: html },
-      { name: "CSS", import: css },
-      { name: "JavaScript", import: javascript },
-      { name: "ReactJS", import: reactjs },
-      { name: "Redux", import: redux },
-      { name: "Tailwind CSS", import: tailwind },
+      { name: "Git", import: git },
+      { name: "Github", import: github },
+      { name: "Gitlab CI/CD", import: gitlab },
+      { name: "Postman", import: postman },
+      { name: "Data Structure & Algorithms", import: datastructure },
     ],
   },
 ];
@@ -142,67 +139,46 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Software Engineer",
+    company_name: "Metafic - Internship - Indore, MP",
+    icon: metafic,
+    iconBg: "#1f242b",
+    date: "January 2023 - June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created responsive web applications with JavaScript, HTML, CSS, React, and Bootstrap. Utilized RESTful APIs and Git for teamwork.",
+      "Applied Test-Driven Development (TDD), crafting unit tests using frameworks like Jest and debugging meticulously.",
+      "Established GitLab CI/CD pipelines, automating builds, tests, and deployments, ensuring reliable production releases.",
+      "Actively engaged in Agile practices, including code reviews, feedback, and promoting knowledge sharing."
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    company_name: "Luertech Software Solutions - Internship - Remote",
+    icon: luertech,
+    iconBg: "#1f242b",
+    date: "Dec. 2021 - March 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked as a frontend developer on live NGO website in HTML, CSS, JS, PHP.",
+      "Developed, maintained, and enhanced the website's functionality.",
+      "Collaborated with internal teams to achieve desired outcomes.",
+      "Conducted browser testing and resolved any issues through debugging.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Virtual Intern",
+    company_name: "Microsoft Future Ready Talent - Remote",
+    icon: microsoft,
+    iconBg: "#1f242b",
+    date: "Oct 2022 - Dec 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Acquired in-demand Azure cloud and security skills tailored to industry requirements.",
+      "Program focused on equipping learners to address business issues and develop inventive solutions with Microsoft Azure and GitHub tools.",
+      "Developed a virtual healthcare assistant using Azure Health Bot, harnessing various Microsoft Azure Services.",
+      "Applied knowledge to create innovative solutions and solve challenges within the healthcare domain."
     ],
   },
 ];
@@ -236,67 +212,63 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Rakshak",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows multiple type of users like donar, hospital, organisation and admin to search, donate, and manage blood sample data from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "mern",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: rakshak,
+    source_code_link: "https://github.com/adarsh-206/Rakshak/tree/main",
   },
   {
-    name: "Job IT",
+    name: "FilesMob",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This web application provides users with a convenient platform to effortlessly share files using either a generated link or a QR code. Additionally, it offers the option to directly send the sharing link via email, streamlining the process of file distribution.",
     tags: [
       {
-        name: "react",
+        name: "htmlcssjs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "express",
         color: "pink-text-gradient",
       },
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: filesmob,
+    source_code_link: "https://github.com/adarsh-206/filesmob",
   },
   {
-    name: "Trip Guide",
+    name: "VeggieFresh",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A real-time vegetable delivery app allowing users to order fresh produce via Card or COD. Admins can monitor order status and payment. Users can track orders in real-time, facilitated by Socket.io. Card payments are processed through integrated Stripe.",
     tags: [
       {
-        name: "nextjs",
+        name: "mern",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "bootstrap",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: veggiefresh,
+    source_code_link: "https://github.com/adarsh-206/VeggieFresh",
   },
 ];
 

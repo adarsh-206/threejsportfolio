@@ -8,8 +8,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -20,16 +18,22 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import express from "./tech/express.png"
+import express from "./tech/express.png";
+import c from './tech/c.png';
+import cplus from './tech/c++.png';
+import mysql from './tech/mysql.png';
+import gitlab from './tech/gitlab.png';
+import postman from './tech/postman.png';
+import datastructure from './tech/datastructure.png';
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import metafic from "./company/metafic.png";
+import luertech from "./company/luertech.png";
+import microsoft from "./company/microsoft.png";
+
+import filesmob from "./filesmob.png";
+import rakshak from "./rakshak.png";
+import veggiefresh from "./veggiefresh.png";
 
 export {
   logo,
@@ -41,8 +45,10 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
+  c,
+  datastructure,
+  cplus,
+  mysql,
   git,
   html,
   javascript,
@@ -54,11 +60,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  gitlab,
+  postman,
+  metafic,
+  luertech,
+  microsoft,
+  filesmob, veggiefresh, rakshak
 };
