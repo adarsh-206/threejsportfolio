@@ -11,6 +11,7 @@ import {
   redux,
   tailwind,
   nodejs,
+  express,
   mongodb,
   git,
   figma,
@@ -50,20 +51,49 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Frontend",
+    icon: [
+      { name: "HTML", import: html },
+      { name: "CSS", import: css },
+      { name: "JavaScript", import: javascript },
+      { name: "ReactJS", import: reactjs },
+      { name: "TypeScript", import: typescript },
+      { name: "Redux", import: redux },
+      { name: "Tailwind CSS", import: tailwind },
+    ],
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Backend",
+    icon: [
+      { name: "NodeJS", import: nodejs },
+      { name: "ExpressJS", import: express },
+      { name: "JavaScript", import: javascript },
+      { name: "ReactJS", import: reactjs },
+      { name: "Redux", import: redux },
+      { name: "Tailwind CSS", import: tailwind },
+    ],
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Databases",
+    icon: [
+      { name: "HTML", import: html },
+      { name: "CSS", import: css },
+      { name: "JavaScript", import: javascript },
+      { name: "ReactJS", import: reactjs },
+      { name: "Redux", import: redux },
+      { name: "Tailwind CSS", import: tailwind },
+    ],
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Others",
+    icon: [
+      { name: "HTML", import: html },
+      { name: "CSS", import: css },
+      { name: "JavaScript", import: javascript },
+      { name: "ReactJS", import: reactjs },
+      { name: "Redux", import: redux },
+      { name: "Tailwind CSS", import: tailwind },
+    ],
   },
 ];
 
