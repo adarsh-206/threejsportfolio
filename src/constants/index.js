@@ -27,7 +27,8 @@ import {
   microsoft,
   veggiefresh,
   filesmob,
-  rakshak
+  rakshak,
+  nextjs
 } from "../assets";
 
 export const navLinks = [
@@ -61,8 +62,9 @@ const services = [
       { name: "CSS", import: css },
       { name: "JavaScript", import: javascript },
       { name: "ReactJS", import: reactjs },
+      { name: "Next.js", import: nextjs },
       { name: "TypeScript", import: typescript },
-      { name: "Redux", import: redux },
+      { name: "Redux Toolkit", import: redux },
       { name: "Tailwind CSS", import: tailwind },
     ],
   },
@@ -139,6 +141,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  {
+    name: "Next.js",
+    icon: nextjs,
+  }
 ];
 
 const experiences = [
@@ -226,6 +232,7 @@ const projects = [
     ],
     image: rakshak,
     source_code_link: "https://github.com/adarsh-206/Rakshak/tree/main",
+    live_link: "https://rakshak-slec.onrender.com/"
   },
   {
     name: "FilesMob",
@@ -251,6 +258,7 @@ const projects = [
     ],
     image: filesmob,
     source_code_link: "https://github.com/adarsh-206/filesmob",
+    live_link: "https://adarsh-206.github.io/filesmob"
   },
   {
     name: "VeggieFresh",
@@ -272,6 +280,7 @@ const projects = [
     ],
     image: veggiefresh,
     source_code_link: "https://github.com/adarsh-206/VeggieFresh",
+    live_link: "https://veggie-fresh.herokuapp.com/"
   },
 ];
 

@@ -25,7 +25,8 @@ import mysql from './tech/mysql.png';
 import gitlab from './tech/gitlab.png';
 import postman from './tech/postman.png';
 import datastructure from './tech/datastructure.png';
-
+import live from './tech/live.png';
+import nextjs from './tech/nextjs.jpg';
 
 import metafic from "./company/metafic.png";
 import luertech from "./company/luertech.png";
@@ -37,6 +38,7 @@ import veggiefresh from "./veggiefresh.png";
 
 export {
   logo,
+  live,
   backend,
   creator,
   mobile,
@@ -46,6 +48,7 @@ export {
   close,
   css,
   c,
+  nextjs,
   datastructure,
   cplus,
   mysql,
