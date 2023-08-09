@@ -57,6 +57,7 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <a href="https://drive.google.com/file/d/18jEoRdOECN2UhocZ5m-S9frMnTih8pLZ/view?usp=drive_link" className="hover:text-white text-[18px] font-medium cursor-pointer text-secondary" target="_blank" rel="noopener noreferrer">Resume</a>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -69,7 +70,7 @@ const Navbar = () => {
 
           <div
             className={`${!toggle ? "hidden" : "flex"
-              } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+              } p-6 bg-tertiary absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
               {navLinks.map((nav) => (
@@ -85,6 +86,7 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <a href="https://drive.google.com/file/d/18jEoRdOECN2UhocZ5m-S9frMnTih8pLZ/view?usp=drive_link" className="hover:text-white text-[18px] font-medium cursor-pointer text-secondary" target="_blank" rel="noopener noreferrer">Resume</a>
             </ul>
           </div>
         </div>

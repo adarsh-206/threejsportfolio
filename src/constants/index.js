@@ -36,20 +36,20 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
-  },
-  {
     id: "experience",
     title: "Experience",
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: "project",
+    title: "Projects",
   },
   {
-    id: "resume",
-    title: "Resume",
+    id: "education",
+    title: "Education",
+  },
+  {
+    id: "contact",
+    title: "Contact",
   },
 ];
 
@@ -183,30 +183,21 @@ const experiences = [
   },
 ];
 
-const testimonials = [
+const education = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    degree: "Bachelor of Engineering",
+    institution: "IET DAVV Indore",
+    year: "2019-2023",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    degree: "XII",
+    institution: "PPS Dewas (CBSE)",
+    year: "2017-2018",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    degree: "X",
+    institution: "PPS Dewas (CBSE)",
+    year: "2015-2016",
   },
 ];
 
@@ -217,12 +208,20 @@ const projects = [
       "Web-based platform that allows multiple type of users like donar, hospital, organisation and admin to search, donate, and manage blood sample data from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
+        name: "htmlcssjs",
+        color: "pink-text-gradient",
+      },
+      {
         name: "mern",
         color: "blue-text-gradient",
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
+      },
+      {
+        name: "jwt",
+        color: "orange-text-gradient",
       },
     ],
     image: rakshak,
@@ -235,7 +234,7 @@ const projects = [
     tags: [
       {
         name: "htmlcssjs",
-        color: "blue-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "nodejs",
@@ -259,12 +258,16 @@ const projects = [
       "A real-time vegetable delivery app allowing users to order fresh produce via Card or COD. Admins can monitor order status and payment. Users can track orders in real-time, facilitated by Socket.io. Card payments are processed through integrated Stripe.",
     tags: [
       {
+        name: "htmlcssjs",
+        color: "orange-text-gradient",
+      },
+      {
         name: "mern",
         color: "blue-text-gradient",
       },
       {
-        name: "bootstrap",
-        color: "green-text-gradient",
+        name: "nodemailer",
+        color: "pink-text-gradient",
       },
     ],
     image: veggiefresh,
@@ -272,4 +275,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, education, projects };
